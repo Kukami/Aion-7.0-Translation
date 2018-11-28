@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<HtmlPages>
+
+  <HtmlPage name="select1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The hour of your destiny draws closer... and swifter than I thought. You must finally ascend to become a Daeva.</p>
+          <p> </p>
+          <p>I believe you are ready for this.</p>
+          <p> </p>
+          <p>But something still seems to be standing in the way of your ascension. We need to find out what it is.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT1_1">You ask what you must do.</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select1_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>We need Forest Protector Daminu's Fruit.</p>
+          <p> </p>
+          <p>Only a single one of these fruits ripens each decade, but Daminu will surely leave it to you out of gratitude for helping the Elim.</p>
+          <p> </p>
+          <p>You can use this flute to make your way to Daminu directly. You should know how to use it.</p>
+          <p> </p>
+          <p>Use the [%dic:STR_DIC_I_Quest_60006c] to get to Forest Protector Daminu and then return with [%dic:STR_DIC_QILA71].</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO1">You end the conversation.</Act>
+    </Selects>
+    <Voice file="Q1006-1.ogg"/>
+  </HtmlPage>
+
+  <HtmlPage name="select2">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>[%username].</p>
+          <p> </p>
+          <p>I remember your name.</p>
+          <p> </p>
+          <p>You brought peace back to the Elim of the forest.</p>
+          <p> </p>
+          <p>All Elim benefit from your deeds.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT2_1">You ask about Daminu's Fruit.</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select2_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>Uhhh...</p>
+          <p> </p>
+          <p>This is for you, human.</p>
+          <p> </p>
+          <p>But... why do you require the fruit?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT2_1_1">"I need it to ascend to Daeva."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select2_1_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>This fruit will open the path to your destiny.</p>
+          <p> </p>
+          <p>But you will have to pay for it some time.</p>
+          <p> </p>
+          <p>Place your hand on my bark so that I may return you.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO2">"Thank you, Lord Daminu."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select3">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>You brought the fruit back undamaged.</p>
+          <p> </p>
+          <p>Did Daminu say anything?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT3_1">"He did."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select3_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>So, he saw the same thing.</p>
+          <p> </p>
+          <p>You never know what tests lie before you, but you can't give up.</p>
+          <p> </p>
+          <p>Close your eyes. I will send you to the test.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO3">You close your eyes.</Act>
+    </Selects>
+    <Voice file="Q1006-3.ogg"/>
+  </HtmlPage>
+
+  <HtmlPage name="select4">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>This is the past of someone who shares your destiny.</p>
+          <p> </p>
+          <p>Thoughts of the past distort the present.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO4">"No, I can't recall either."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select5">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>In fighting against Oris, you opened the path to your destiny that was once sealed.</p>
+          <p> </p>
+          <p>It is time to heed the call and to tread the path of the [%dic:STR_DIC_ELA10] as a [%dic:STR_DIC_ELA09].</p>
+          <p> </p>
+          <p>New Daeva, I have a question for you.</p>
+          <p> </p>
+          <p>Which path do you wish to take?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT5_1">"The path of the Gladiator."</Act>
+      <Act href="HACTION_SELECT5_2">"The path of the Templar."</Act>
+    </Selects>
+    <Voice file="Q1006-4.ogg"/>
+  </HtmlPage>
+
+  <HtmlPage name="select5_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The Gladiator is characterised by excellent attack and defence capabilities.</p>
+          <p> </p>
+          <p>They can only attack from a close distance, but that makes them even deadlier.</p>
+          <p> </p>
+          <p>They can use a range of weapons unlike other Daevas. The Gladiator is a born fighter.</p>
+          <p> </p>
+          <p>Do you wish to walk the path of the Gladiator?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO5">"Yes, this is the path I wish to walk."</Act>
+      <Act href="HACTION_SELECT5_1_1">"Allow me to think on it for a moment."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select5_2">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>As a Templar you must fight at the very front.</p>
+          <p> </p>
+          <p>Templars can heal and protect themselves with the aid of magic. This puts them in a position to intercept enemy attacks with their own body.</p>
+          <p> </p>
+          <p>Do you wish to become a Templar, who puts themselves in harm's way for others?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO6">"Yes, this is the path I wish to walk."</Act>
+      <Act href="HACTION_SELECT5_2_1">"Allow me to think on it for a moment."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select5_1_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>If you choose the path of the Gladiator, you will become an outstanding fighter who can carry many weapons and whose strengths lie both in combat as well as in defence.</p>
+          <p> </p>
+          <p>Templars stand at the very front and protect themselves with the aid of magic.</p>
+          <p> </p>
+          <p>Which path do you wish to walk? Think carefully before you choose.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT5_1">"I choose to be a Gladiator."</Act>
+      <Act href="HACTION_SELECT5_2">"I choose to be a Templar."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select5_2_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>If you choose the path of the Gladiator, you will become an outstanding fighter who can carry many weapons and whose strengths lie both in combat as well as in defence.</p>
+          <p> </p>
+          <p>Templars stand at the very front and protect themselves with the aid of magic.</p>
+          <p> </p>
+          <p>Which path do you wish to walk? Think carefully before you decide.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT5_1">"I choose to be a Gladiator."</Act>
+      <Act href="HACTION_SELECT5_2">"I choose to be a Templar."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select6">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>In fighting against Oris, you opened the path to your destiny that was once sealed.</p>
+          <p> </p>
+          <p>It is time to heed the call and to tread the path of the [%dic:STR_DIC_ELA10] as a [%dic:STR_DIC_ELA09].</p>
+          <p> </p>
+          <p>New Daeva, I have a question for you.</p>
+          <p> </p>
+          <p>Which path do you wish to take?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT6_1">"The path of the Assassin."</Act>
+      <Act href="HACTION_SELECT6_2">"The path of the Ranger."</Act>
+    </Selects>
+    <Voice file="Q1006-4.ogg"/>
+  </HtmlPage>
+
+  <HtmlPage name="select6_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The Assassin attacks from the darkness.</p>
+          <p> </p>
+          <p>They can hide themselves, ambush their enemies or use Stigmas to land critical hits.</p>
+          <p> </p>
+          <p>However, their abilities are linked to conditions that aren't easy to meet.</p>
+          <p> </p>
+          <p>Do you still wish to walk the path of the Assassin?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO7">"Yes, that sounds familiar...."</Act>
+      <Act href="HACTION_SELECT6_1_1">"Allow me to think on it for a moment."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select6_2">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The Ranger dominates their opponents with their swift movements.</p>
+          <p> </p>
+          <p>They can attack from afar with a bow and at close range with two knives.</p>
+          <p> </p>
+          <p>They can also attack multiple opponents simultaneously using traps.</p>
+          <p> </p>
+          <p>Do you wish to walk the path of the Ranger?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO8">"Yes, this is the path I wish to walk."</Act>
+      <Act href="HACTION_SELECT6_2_1">"Allow me to think on it for a moment."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select6_1_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>I'll give you a chance to think about it a little more.</p>
+          <p> </p>
+          <p>The Assassin lurks in the shadows to eliminate a target with lightning speed.</p>
+          <p> </p>
+          <p>The Ranger uses bow and knife to swiftly dispatch their opponents.</p>
+          <p> </p>
+          <p>Which path do you wish to take? Think carefully before you decide.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT6_1">"I choose to be an Assassin."</Act>
+      <Act href="HACTION_SELECT6_2">"I choose to be a Ranger."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select6_2_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>I'll give you a chance to think about it a little more.</p>
+          <p> </p>
+          <p>The Assassin lurks in the shadows to eliminate a target with lightning speed.</p>
+          <p> </p>
+          <p>The Ranger uses bow and knife to swiftly dispatch their opponents.</p>
+          <p> </p>
+          <p>Which path do you wish to take? Think carefully before you decide.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT6_1">"I choose to be an Assassin."</Act>
+      <Act href="HACTION_SELECT6_2">"I choose to be a Ranger."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select7">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>In fighting against Oris, you opened the path to your destiny that was once sealed.</p>
+          <p> </p>
+          <p>It is time to heed the call and to tread the path of the [%dic:STR_DIC_ELA10] as a [%dic:STR_DIC_ELA09].</p>
+          <p> </p>
+          <p>New Daeva, I have a question for you.</p>
+          <p> </p>
+          <p>Which path do you wish to take?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT7_1">"The path of the Sorcerer."</Act>
+      <Act href="HACTION_SELECT7_2">"The path of the Spiritmaster."</Act>
+    </Selects>
+    <Voice file="Q1006-4.ogg"/>
+  </HtmlPage>
+
+  <HtmlPage name="select7_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The Sorcerer attacks their enemies using magic.</p>
+          <p> </p>
+          <p>They can combat their opponents with mighty flames and water that immobilise them or send them to sleep.</p>
+          <p> </p>
+          <p>Defence is their big weakness, however.</p>
+          <p> </p>
+          <p>Do you still wish to walk the path of the Sorcerer?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO9">"Yes, it sounds familiar."</Act>
+      <Act href="HACTION_SELECT7_1_1">"Allow me to think on it for a moment."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select7_2">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The Spiritmaster summons the spirits of the four elements and deploys them for themselves.</p>
+          <p> </p>
+          <p>How they fight depends on the abilities of the summoned spirits.</p>
+          <p> </p>
+          <p>It's a real challenge taking care of the spirits and deploying them correctly.</p>
+          <p> </p>
+          <p>Do you still wish to become a Spiritmaster?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO10">"It is, and I wish to be a Spiritmaster again."</Act>
+      <Act href="HACTION_SELECT7_2_1">"Allow me to think on it for a moment."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select7_1_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The Sorcerer sweeps their enemies away in one blow with magical fire and water.</p>
+          <p> </p>
+          <p>The Spiritmaster can summon spirits of the four elements and deploy them for themselves.</p>
+          <p> </p>
+          <p>Which path is the right one for you?</p>
+          <p> </p>
+          <p>Think carefully before you decide.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT7_1">"The path of the Sorcerer."</Act>
+      <Act href="HACTION_SELECT7_2">"The path of the Spiritmaster."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select7_2_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The Sorcerer sweeps their enemies away in one blow with magical fire and water.</p>
+          <p> </p>
+          <p>The Spiritmaster can summon spirits of the four elements and deploy them for themselves.</p>
+          <p> </p>
+          <p>Which path is the right one for you?</p>
+          <p> </p>
+          <p>Think carefully before you decide.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT7_1">"The path of the Sorcerer."</Act>
+      <Act href="HACTION_SELECT7_2">"The path of the Spiritmaster."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select8">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>In fighting against Oris, you opened the path to your destiny that was once sealed.</p>
+          <p> </p>
+          <p>It is time to heed the call and to tread the path of the [%dic:STR_DIC_ELA10] as a [%dic:STR_DIC_ELA09].</p>
+          <p> </p>
+          <p>New Daeva, I have a question for you.</p>
+          <p> </p>
+          <p>Which path do you wish to take?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT8_1">"The path of the Cleric."</Act>
+      <Act href="HACTION_SELECT8_2">"The path of the Chanter."</Act>
+    </Selects>
+    <Voice file="Q1006-4.ogg"/>
+  </HtmlPage>
+
+  <HtmlPage name="select8_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The Cleric can use magic to restore the health of others or to bolster their defence.</p>
+          <p> </p>
+          <p>Additionally, they can resurrect fallen allies where they lay.</p>
+          <p> </p>
+          <p>The task of the Cleric is to protect their allies by means of magic.</p>
+          <p> </p>
+          <p>Do you wish to walk the path of the Cleric in future?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO11">"It is."</Act>
+      <Act href="HACTION_SELECT8_1_1">"Allow me to think on it for a moment."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select8_2">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The Chanter utilises magic to enhance their own attack and that of their allies.</p>
+          <p> </p>
+          <p>They're also able to attack their enemies directly.</p>
+          <p> </p>
+          <p>Do you wish to walk the path of the Chanter?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO12">"It does. I wish to walk this path again."</Act>
+      <Act href="HACTION_SELECT8_2_1">"Allow me to think on it for a moment."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select8_1_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>Clerics and Chanters support their allies with the help of magic.</p>
+          <p> </p>
+          <p>The Cleric restores their allies' health and boosts their defence.</p>
+          <p> </p>
+          <p>The Chanter, on the other hand, strengthens their allies' attack.</p>
+          <p> </p>
+          <p>Think carefully about which path you wish to tread.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT8_1">"I choose the path of the Cleric."</Act>
+      <Act href="HACTION_SELECT8_2">"I choose the path of the Chanter."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select8_2_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>Clerics and Chanters support their allies with the help of magic.</p>
+          <p> </p>
+          <p>The Cleric restores their allies' health and boosts their defence.</p>
+          <p> </p>
+          <p>The Chanter, on the other hand, strengthens their allies' attack.</p>
+          <p> </p>
+          <p>Think carefully about which path you wish to tread.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT8_1">"I choose the path of the Cleric."</Act>
+      <Act href="HACTION_SELECT8_2">"I choose the path of the Chanter."</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select9">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>In fighting against Oris, you opened the path to your destiny that was once sealed.</p>
+          <p> </p>
+          <p>It is time to heed the call and to tread the path of the [%dic:STR_DIC_ELA10] as a [%dic:STR_DIC_ELA09].</p>
+          <p> </p>
+          <p>New Daeva, I have a question for you.</p>
+          <p> </p>
+          <p>Which path do you wish to take?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT9_1">I want to become a Gunner.</Act>
+      <Act href="HACTION_SELECT9_2">I want to become an Aethertech.</Act>
+    </Selects>
+    <Voice file="Q1006-4.ogg"/>
+  </HtmlPage>
+
+  <HtmlPage name="select9_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The Gunner uses technical know-how and expertise.</p>
+          <p> </p>
+          <p>Their weapon is a combination of technology and magic with the help of which they can wipe out enemies from great distances.</p>
+          <p> </p>
+          <p>The Gunner can fire the aether revolver at lightning speed and, at the same time, obliterate multiple enemies in one shot with the titanic firepower of the aether cannon.</p>
+          <p> </p>
+          <p>Do you wish to walk the path of the Gunner?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO13">Yes, I want to become a gunner.</Act>
+      <Act href="HACTION_SELECT9_1_1">I'd like to think it over.</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select9_2">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The Aethertech class uses the 'mech'.</p>
+          <p> </p>
+          <p>The mech is a new means of transport that was developed during research on the ancient weapons and Idgel in the Sauro War Depot.</p>
+          <p> </p>
+          <p>If you have an Aether Key, you can attack your opponents with the mech by utilising magical power.</p>
+          <p> </p>
+          <p>The mech can overwhelm opponents at different distances and possesses heavy resistance to magic attack.</p>
+          <p> </p>
+          <p>If you become an Aethertech you won't be able to equip leather armour any longer, however.</p>
+          <p> </p>
+          <p>Do you wish to walk the path of the Aethertech?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO15">Yes, I want to become an Aethertech.</Act>
+      <Act href="HACTION_SELECT9_2_1">I need some time to think about it.</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select9_1_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>Gunners can defeat their opponents using a ranged attack with firearms.</p>
+          <p> </p>
+          <p>They use both the aether revolver and the aether cannon. Their attack is very precise and powerful.</p>
+          <p> </p>
+          <p>Aethertechs use a mech and can quickly defeat their opponents from different distances.</p>
+          <p> </p>
+          <p>Think well about which path you wish to walk.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT9_1">I will walk the Path of the Gunner.</Act>
+      <Act href="HACTION_SELECT9_2">I will walk the Path of the Aethertech.</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select9_2_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>Gunners can defeat their opponents using a ranged attack with firearms.</p>
+          <p> </p>
+          <p>They use both the aether revolver and the aether cannon. Their attack is very precise and powerful.</p>
+          <p> </p>
+          <p>Aethertechs use a mech and can quickly defeat their opponents from different distances.</p>
+          <p> </p>
+          <p>Think well about which path you wish to walk.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT9_1">I will walk the Path of the Gunner.</Act>
+      <Act href="HACTION_SELECT9_2">I will walk the Path of the Aethertech.</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select10">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>In fighting against Oris, you opened the path to your destiny that was once sealed.</p>
+          <p> </p>
+          <p>It is time to heed the call and to tread the path of the [%dic:STR_DIC_ELA10] as a [%dic:STR_DIC_ELA09].</p>
+          <p> </p>
+          <p>New Daeva, I have a question for you.</p>
+          <p> </p>
+          <p>Which path do you wish to take?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT10_1">I'll become a Bard.</Act>
+      <Act href="HACTION_SELECT10_2">I'll become a Painter.</Act>
+    </Selects>
+    <Voice file="Q1006-4.ogg"/>
+  </HtmlPage>
+
+  <HtmlPage name="select10_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+         <p>The Bards summon the power of Aether with their songs of praise to Aion.</p>
+          <p> </p>
+          <p>Depending on the song they choose, they can heal wounded soldiers, increase performance of their own troops or even weaken the enemy's battle morale.</p>
+          <p> </p>
+          <p>They attack from a distance and can influence the enemy's movements.</p>
+          <p> </p>
+          <p>Do you want to tread the path of the Bard?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO14">Yes, I want to become a Bard.</Act>
+      <Act href="HACTION_SELECT10_1_1">I'd like to think it over.</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select10_2">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>The Painter can utilize various colors of paint to control enemies quickly from a distance.</p>
+          <p> </p>
+          <p>It wears a spray on both hands, neutralizes enemy movements, or strengthens a fighter's combat ability.</p>
+          <p> </p>
+          <p>Do you want to tread the path of the Painter?</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SETPRO16">Yes, I want to become a Painter.</Act>
+      <Act href="HACTION_SELECT10_2_1">I'd like to think it over.</Act>
+    </Selects>
+  </HtmlPage>
+
+
+  <HtmlPage name="select10_1_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>Bards use the power of music to support their own troops or to stop the enemy.</p>
+          <p> </p>
+          <p>Music and song can be deployed to attack the enemy and render them incapable of fighting.</p>
+          <p> </p>
+          <p>Or do you want to have colorful abilities?</p>
+          <p> </p>
+          <p>Think carefully before you decide.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT10_1">I will walk the Path of the Bard.</Act>
+      <Act href="HACTION_SELECT10_2">I will walk the Path of the Painter.</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select10_2_1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>Bards use the power of music to support their own troops or to stop the enemy.</p>
+          <p> </p>
+          <p>Music and song can be deployed to attack the enemy and render them incapable of fighting.</p>
+          <p> </p>
+          <p>Or do you want to have colorful abilities?</p>
+          <p> </p>
+          <p>Think carefully before you decide.</p>
+        </body>
+        </html>
+    </Contents>
+    <Selects>
+      <Act href="HACTION_SELECT10_1">I will walk the Path of the Bard.</Act>
+      <Act href="HACTION_SELECT10_2">I will walk the Path of the Painter.</Act>
+    </Selects>
+  </HtmlPage>
+
+  <HtmlPage name="select_quest_reward1">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>So you have ascended to Daeva, [%username].</p>
+          <p> </p>
+          <p>You now stand in service to the Five Lords and it is your duty to protect [%dic:STR_DIC_ELA07].</p>
+          <p> </p>
+          <p>Your soul and your body no longer belong to you alone.</p>
+          <p> </p>
+          <p>As a chosen Daeva, you must protect the Elyos and [%dic:STR_DIC_ELA03].</p>
+          <p> </p>
+          <p>I will return you to the present.</p>
+        </body>
+        </html>
+    </Contents>
+  </HtmlPage>
+
+   <HtmlPage name="quest_summary">
+    <Contents cdata="true">
+        <html>
+        <body>
+    <steps>
+               <step><p visible="[%0]"><font color="[%1]">Talk to [%dic:STR_DIC_N_LF1_Kaisinel_E], the examiner at the Temple of Illusion.</font></p></step>
+               <step><p visible="[%3]"><font color="[%4]">Use the [%dic:STR_DIC_I_Quest_60006c] to get to Forest Protector [%dic:STR_DIC_N_Tree_NoMove_Daminu_60].</font></p></step>
+               <step><p visible="[%6]"><font color="[%7]">Go to [%dic:STR_DIC_N_Tree_NoMove_Daminu_60] and get [%dic:STR_DIC_QILA71].</font></p></step>
+               <step><p visible="[%9]"><font color="[%10]">Talk to [%dic:STR_DIC_N_LF1_Kaisinel_E].</font></p></step>
+               <step><p visible="[%12]"><font color="[%13]">Face your lost past.</font></p></step>
+               <step><p visible="[%21]"><font color="[%22]">Attack Karamatis.</font></p></step>
+               <step><p visible="[%24]"><font color="[%25]">Kill the Draconute Raiders ([%26]/4).</font></p></step>
+               <step><p visible="[%27]"><font color="[%28]">Kill Oris!</font></p></step>
+               <step><p visible="[%15]"><font color="[%16]">Talk to Kasis and choose your path.</font></p></step>
+    </steps>
+          <p><font font_xml="quest_summary">The time for your ascension to Daeva has come. Talk to Kasis.</font></p>
+        </body>
+        </html>
+    </Contents>
+  </HtmlPage>
+
+  <HtmlPage name="quest_complete">
+    <Contents cdata="true">
+        <html>
+        <body>
+          <p>Kasis, the examiner at the Temple of Illusion, said that the path to your destiny would remain sealed until you completed the ascension to Daeva.</p>
+          <p> </p>
+          <p>He tasked you with obtaining Daminu's Fruit in order to finally be able to accept your destiny.</p>
+          <p> </p>
+          <p>You followed his instructions and received Daminu's Fruit from Daminu. You then penetrated the memories of Daevas who shared your destiny and gained access to your destiny.</p>
+        </body>
+        </html>
+    </Contents>
+  </HtmlPage>
+
+  <HtmlPage name="select_acqusitive_quest_desc">
+    <Selects>
+      <Act>Order: [%questname]</Act>
+    </Selects>  
+  </HtmlPage>
+
+  <HtmlPage name="select_progressive_quest_desc">
+    <Selects>
+      <Act>Mission Progress: [%questname]</Act>
+    </Selects>
+  </HtmlPage>
+
+</HtmlPages>
