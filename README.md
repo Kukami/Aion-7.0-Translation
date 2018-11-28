@@ -1,3 +1,3 @@
 # Aion-7.0-Translation
 
-This isn't working yet don't download lol
+New class skills are translated but most new stuff still missing
