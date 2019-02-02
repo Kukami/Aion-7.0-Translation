@@ -1,5 +1,5 @@
 data.pak
 Strings/gtranslate.py
 Strings/HOWTO.md
-*_short.xml
-*_short_en.xml
+Strings/translate.xml
+Strings/translate_en.xml
